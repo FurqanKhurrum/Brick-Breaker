@@ -58,12 +58,14 @@ function AABBvsCircle(box, circle):
 
 ### Diagram 1 – AABB–AABB Overlapping Edges
 
-<img width="787" height="555" alt="image" src="https://github.com/user-attachments/assets/b7ab5535-6cdd-4a00-ae0d-08ca95795ade" />  
+<img width="787" height="555" alt="image" src="https://github.com/user-attachments/assets/b7ab5535-6cdd-4a00-ae0d-08ca95795ade" />    
+
 > AABB–AABB collision occurs only when both x-range and y-range overlap.
 
 ### Diagram 2 – Closest Point Calculation (AABB–Circle)
 
 <img width="748" height="303" alt="image" src="https://github.com/user-attachments/assets/eda000e8-ce58-4b72-a1ea-16fae83cea0d" />
+
 > The clamped point is the closest point on the rectangle to the circle. If the distance ≤ radius, a collision occurs.
 
 ## 4. What Does `clamp` Do? Why Is It Important?
