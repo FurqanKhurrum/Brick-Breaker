@@ -64,7 +64,8 @@ function AABBvsCircle(box, circle):
 
 ### Diagram 2 – Closest Point Calculation (AABB–Circle)
 
-<img width="748" height="303" alt="image" src="https://github.com/user-attachments/assets/eda000e8-ce58-4b72-a1ea-16fae83cea0d" />
+<img width="805" height="702" alt="image" src="https://github.com/user-attachments/assets/0f9506dd-70b1-4f8b-bef8-3bd1c3fe09d7" />
+
 
 > The clamped point is the closest point on the rectangle to the circle. If the distance ≤ radius, a collision occurs.
 
