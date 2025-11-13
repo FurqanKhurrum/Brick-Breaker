@@ -123,5 +123,6 @@ Without clamping, the distance calculation would use a point outside the box, le
 - Use frame interpolation or sub-stepping to avoid tunneling
 
 ## 7. Evidence of Successful Collisions
-![20251113-0359-17 2001763](https://github.com/user-attachments/assets/f8959938-30a1-4c1f-a50b-a0f29a1385d4)
+![20251113-0402-14 5551255](https://github.com/user-attachments/assets/2689dffb-4dc3-47eb-b9cf-8401fafb7a11)
+
 > The ball successfully detects collisions with bricks using AABB–Circle logic and removes the brick when hit.
